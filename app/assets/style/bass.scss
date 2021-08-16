@@ -1,0 +1,35 @@
+img {
+    ...
+    height: auto;
+}
+
+.container {
+    ...
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    ...
+}
+
+@media (max-width: 768px) {
+    .card {
+        ...    
+    }
+    .container {
+        max-width: 720px;
+    }
+}
+@media (max-width: 576px) {
+    .card {
+        ...
+    }
+    .container {
+        max-width: 540px;
+    }
+}
